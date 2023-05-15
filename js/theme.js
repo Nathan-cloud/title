@@ -11,6 +11,10 @@
             fixedContentPos: false
         });
     }
+    
+
+
+    
     if ($('.accrodion-grp').length) {
         var accrodionGrp = $('.accrodion-grp');
         accrodionGrp.each(function () {
