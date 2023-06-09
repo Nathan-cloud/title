@@ -1678,7 +1678,7 @@ hr.style-one {
 .project-style-one__image-block:before {
   content: "";
   position: absolute;
-  background-color: #17354f;
+  background-color: #34455436;
   opacity: 0.8;
   top: 0;
   left: 0;
