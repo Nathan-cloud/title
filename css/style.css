@@ -77,11 +77,11 @@ a:visited {
 }
 
 .thm-black-bg {
-  background-color: #17354f;
+  background-color: #17354fe6;
 }
 
 .thm-base-bg {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .thm-primary-bg {
@@ -216,15 +216,15 @@ hr.style-one {
 
 .thm-btn:hover {
   color: #fff;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .thm-btn__base-bg {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .thm-btn__base-bg:hover {
-  color: rgb(0 49 54);
+  color: #cfb47a;
   background-color: #fff;
 }
 
@@ -265,7 +265,7 @@ hr.style-one {
 }
 
 .bootstrap-select .dropdown-menu > li.selected > a {
-  background: rgb(0 49 54);
+  background: #cfb47a;
   color: #fff;
 }
 
@@ -278,7 +278,7 @@ hr.style-one {
 }
 
 .bootstrap-select .dropdown-menu > li > a:hover {
-  background: rgb(0 49 54);
+  background: #cfb47a;
   color: #fff;
   cursor: pointer;
 }
@@ -326,7 +326,7 @@ hr.style-one {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background: rgb(0 49 54);
+  background: #cfb47a;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -342,7 +342,7 @@ hr.style-one {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -410,11 +410,12 @@ hr.style-one {
 .header-navigation {
   background-color: transparent;
   margin-bottom: 0;
-  border: none;
+  border-bottom: 1px solid #e1e1e1;
   border-radius: 0;
   padding: 0;
   position: relative;
   background-color: transparent;
+
 }
 
 .header-navigation .container {
@@ -576,7 +577,7 @@ hr.style-one {
 
 .header-navigation ul.navigation-box > li > .sub-menu > li:hover > a {
   color: #fff;
-  background: rgb(0 49 54);
+  background: #cfb47a;
 }
 
 .header-navigation ul.navigation-box > li:hover:before {
@@ -655,7 +656,7 @@ hr.style-one {
 
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu > li:hover > a {
   color: #fff;
-  background: rgb(0 49 54);
+  background: #cfb47a;
 }
 
 .header-navigation ul.navigation-box > li > ul > li:hover > .sub-menu {
@@ -685,7 +686,7 @@ hr.style-one {
 
 .site-header.header-one .top-bar {
   padding: 42px 0;
-  border-bottom: 1px solid #f3f3f3;
+ border-bottom: 1px solid #e1e1e1
 }
 
 .site-header.header-one .top-bar .container {
@@ -723,7 +724,7 @@ hr.style-one {
 }
 
 .site-header.header-one .top-bar .social-block a:hover {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .site-header.header-one .top-bar .social-block a + a {
@@ -740,7 +741,7 @@ hr.style-one {
 }
 
 .site-header.header-one .top-bar .right-block a i {
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-size: 14px;
   margin-right: 10px;
 }
@@ -758,12 +759,12 @@ hr.style-one {
 }
 
 .site-header.header-one .header-navigation ul.navigation-box > li > a:before {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .site-header.header-one .header-navigation ul.navigation-box > li.current > a,
 .site-header.header-one .header-navigation ul.navigation-box > li:hover > a {
-  color: rgb(0 49 54);
+  color: rgb(0 0 0);
 }
 
 .site-header .right-side-box {
@@ -793,7 +794,7 @@ hr.style-one {
 }
 
 .header__social-block a:hover {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .header__social-block a + a {
@@ -930,7 +931,7 @@ hr.style-one {
 
 .banner-style-one .tag-line {
   font-size: 24px;
-  color: #ffffff;
+  color: #000;
   font-weight: 600;
   display: block;
   width: 100%;
@@ -944,10 +945,10 @@ hr.style-one {
 }
 
 .banner-style-one .banner-title {
-  color: #ffffff;
-  font-size: 100px;
+  color: #000;
+  font-size: 70px;
   line-height: 90px;
-  font-weight: 900;
+  font-weight: 600;
   font-family: "Titillium Web", sans-serif;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -960,7 +961,7 @@ hr.style-one {
 .banner-style-one p {
   font-size: 36px;
   line-height: 1.25em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #000;
   font-weight: 400;
   margin-top: 50px;
   -webkit-animation-duration: 2s;
@@ -976,7 +977,7 @@ hr.style-one {
   vertical-align: middle;
   color: #ffffff;
   font-size: 18px;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   padding: 19.5px 50px;
   transition: all 0.4s ease;
   margin-top: 40px;
@@ -1320,7 +1321,7 @@ hr.style-one {
 .site-footer .upper-footer .subscribe-form button[type="submit"] {
   border: none;
   outline: none;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
@@ -1379,7 +1380,7 @@ hr.style-one {
 .site-footer .footer-widget ul.link-list li a:before {
   content: "\f101";
   font-family: "FontAwesome";
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -1425,7 +1426,7 @@ hr.style-one {
 }
 
 .site-footer .footer-widget .social-block a:hover {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .site-footer .footer-widget .social-block a + a {
@@ -1457,9 +1458,6 @@ hr.style-one {
   transition: all 0.4s ease;
 }
 
-.site-footer .bottom-footer .inner-container p a:hover {
-  color: rgb(0 49 54);
-}
 
 .footer-widget .insta-photo-list {
   margin-left: -10px;
@@ -1509,7 +1507,7 @@ hr.style-one {
 .contact-block-one__form button[type="submit"] {
   border: none;
   outline: none;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -1585,9 +1583,7 @@ hr.style-one {
   line-height: 43px;
 }
 
-.contact-block-one__info .social-block a:hover {
-  background-color: rgb(0 49 54);
-}
+
 
 .contact-block-one__info .social-block a + a {
   margin-left: 6px;
@@ -1646,7 +1642,7 @@ hr.style-one {
 .contact-two__form button[type="submit"] {
   border: none;
   outline: none;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -1714,7 +1710,7 @@ hr.style-one {
 }
 
 .project-style-one__category {
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-size: 16px;
   font-weight: 600;
   display: block;
@@ -1752,7 +1748,7 @@ hr.style-one {
 }
 
 .project-style-one__single:hover .project-style-one__title a {
-  color: rgb(0 49 54);
+  color: #cfb47a;
 }
 
 .project-style-one__single:hover .project-style-one__category {
@@ -1860,7 +1856,7 @@ hr.style-one {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .thm-breadcrumb__item {
@@ -1895,7 +1891,7 @@ hr.style-one {
 }
 
 .cta-one__image-block__content {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   padding: 59px 0;
 }
 
@@ -1982,7 +1978,7 @@ hr.style-one {
 .cta-two__btn {
   margin-top: 50px;
   color: #fff;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   transition: all 0.4s ease;
 }
 
@@ -2044,7 +2040,7 @@ hr.style-one {
 }
 
 .cta-three__btn {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   color: #fff;
   transition: all 0.4s ease;
 }
@@ -2221,7 +2217,7 @@ hr.style-one {
 }
 
 .price-two__single:before {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .price-two__price {
@@ -2269,7 +2265,7 @@ hr.style-one {
 }
 
 .price-two__link-text a {
-  color: rgb(0 49 54);
+  color: #cfb47a;
   transition: all 0.4s ease;
 }
 
@@ -2394,7 +2390,7 @@ hr.style-one {
   font-size: 14px;
   line-height: 38px;
   color: #fff;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   width: 120px;
   text-align: center;
   margin-top: 10px;
@@ -2419,7 +2415,7 @@ hr.style-one {
 }
 
 .download-one__ind:hover {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .download-one__jpg {
@@ -2497,7 +2493,7 @@ hr.style-one {
 }
 
 .about-one__title a:hover {
-  color: rgb(0 49 54);
+  color: #cfb47a;
 }
 
 .about-one__text {
@@ -2641,7 +2637,7 @@ hr.style-one {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   padding: 57px 0;
   padding-left: 40px;
   text-align: left;
@@ -2787,11 +2783,11 @@ hr.style-one {
 
 .team-one .team-carousel-btn .carousel-btn:hover {
   opacity: 1;
-  border-color: rgb(0 49 54);
+  border-color: #cfb47a;
 }
 
 .team-one .team-carousel-btn .carousel-btn:hover i {
-  -webkit-text-stroke-color: rgb(0 49 54);
+  -webkit-text-stroke-color: #cfb47a;
 }
 
 .team-one .team-carousel-btn .carousel-btn.left-btn {
@@ -2807,7 +2803,7 @@ hr.style-one {
 * 15. brand styled
 */
 .brand-one {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   padding: 92px 0;
 }
 
@@ -2839,7 +2835,7 @@ hr.style-one {
   right: 0;
   bottom: 0;
   opacity: 0.9;
-  background-color: #17354f;
+  background-color: #31475ac7;
 }
 
 .testimonial-one .container {
@@ -3010,7 +3006,7 @@ hr.style-one {
   border-radius: 50%;
   text-align: center;
   line-height: 42px;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   transition: all 0.4s ease;
 }
 
@@ -3083,7 +3079,7 @@ hr.style-one {
 }
 
 .service-two__title a:hover {
-  color: rgb(0 49 54);
+  color: #cfb47a;
 }
 
 .service-three {
@@ -3179,7 +3175,7 @@ hr.style-one {
   border-radius: 50%;
   text-align: center;
   line-height: 42px;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   transition: all 0.4s ease;
 }
 
@@ -3284,7 +3280,7 @@ hr.style-one {
 .service-four__link {
   display: inline-block;
   vertical-align: middle;
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-size: 16px;
   font-weight: 600;
   position: relative;
@@ -3294,7 +3290,7 @@ hr.style-one {
 .service-four__link:before {
   content: "\f101";
   font-family: "FontAwesome";
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -3382,7 +3378,7 @@ hr.style-one {
 }
 
 .blog-one__title a:hover {
-  color: rgb(0 49 54);
+  color: #cfb47a;
 }
 
 .blog-one__text {
@@ -3402,7 +3398,7 @@ hr.style-one {
 }
 
 .blog-one__meta-item i {
-  color: rgb(0 49 54);
+  color: #cfb47a;
   line-height: 1em;
   margin-right: 9px;
   transition: all 0.4s ease;
@@ -3444,7 +3440,7 @@ hr.style-one {
 }
 
 .blog-one__link:hover {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .blog-one__single:hover .blog-one__image-block:before {
@@ -3542,7 +3538,7 @@ hr.style-one {
 }
 
 .blog-details__tags-link:hover {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
   color: #fff;
 }
 
@@ -3656,7 +3652,7 @@ hr.style-one {
 
 .comment-one__date {
   display: block;
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-size: 16px;
   font-weight: 600;
   line-height: 1em;
@@ -3739,7 +3735,7 @@ hr.style-one {
 }
 
 .accrodion-grp .accrodion .accrodion-content .inner p span {
-  color: rgb(0 49 54);
+  color: #cfb47a;
 }
 
 .accrodion-grp .accrodion .accrodion-content .inner p + p {
@@ -3747,7 +3743,7 @@ hr.style-one {
 }
 
 .accrodion-grp .accrodion.active .accrodion-title {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .accrodion-grp .accrodion.active .accrodion-title h4 {
@@ -3832,7 +3828,7 @@ hr.style-one {
 }
 
 .fun-fact-one__link:hover {
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 /*
@@ -3932,7 +3928,7 @@ hr.style-one {
 .sidebar__categories-list-item a:before {
   content: "\f101";
   font-family: "FontAwesome";
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -3976,7 +3972,7 @@ hr.style-one {
 }
 
 .sidebar__featured-post__title a:hover {
-  color: rgb(0 49 54);
+  color: #cfb47a;
 }
 
 .sidebar__featured-post__text {
@@ -4015,7 +4011,7 @@ hr.style-one {
 
 .sidebar__tags-list-item a:hover {
   color: #fff;
-  background-color: rgb(0 49 54);
+  background-color: #cfb47a;
 }
 
 .sidebar__recent-post__single + .sidebar__recent-post__single {
@@ -4044,7 +4040,7 @@ hr.style-one {
 
 .sidebar__recent-post__date {
   font-size: 14px;
-  color: rgb(0 49 54);
+  color: #cfb47a;
   font-weight: 600;
   margin: 0;
   display: block;

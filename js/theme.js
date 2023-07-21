@@ -73,26 +73,36 @@
 
     }
 
-    if ($('.main-navigation .navigation-box .sub-menu').length) {
-        var subMenu = $('.main-navigation .sub-menu');
-        subMenu.parent('li').children('a').append(function () {
-            return '<button class="sub-nav-toggler"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>';
+    (function ($) {
+        "use strict";
+      
+        // Function to handle the menu toggling
+        function toggleMenu() {
+          var menu = $("#main-nav-bar");
+          menu.slideToggle();
+          menu.toggleClass("showen");
+        }
+      
+        // Handle menu toggler button click event
+        $(".menu-toggler").on("click", function () {
+          toggleMenu();
+          return false;
         });
-        var mainNavToggler = $('.header-navigation .menu-toggler');
-        var subNavToggler = $('.main-navigation .sub-nav-toggler');
-        mainNavToggler.on('click', function () {
-            var Self = $(this);
-            var menu = Self.data('target');
-            $(menu).slideToggle();
-            $(menu).toggleClass('showen');
-            return false;
+      
+        // Handle sub-menu toggler button click event
+        $(".sub-nav-toggler").on("click", function () {
+          $(this).parent().parent().children(".sub-menu").slideToggle();
+          return false;
         });
-        subNavToggler.on('click', function () {
-            var Self = $(this);
-            Self.parent().parent().children('.sub-menu').slideToggle();
-            return false;
+      
+        // Handle window resize event for mobile devices
+        $(window).on("resize", function () {
+          if ($(window).width() > 991) {
+            // Ensure the menu is visible when the window is resized above 991px
+            $("#main-nav-bar").removeAttr("style").removeClass("showen");
+          }
         });
-    }
+      })(jQuery);
     if ($('.video-popup').length) {
         $('.video-popup').magnificPopup({
             disableOn: 700,

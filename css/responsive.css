@@ -260,9 +260,9 @@
         width: 100%;
         display: none;
         text-align: left;
-        background: #181818;
+        background: #cfb47a;
         max-height: 70vh;
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
 
     .header-navigation .container .menu-toggler {
@@ -299,7 +299,7 @@
     }
 
     .site-header.header-one .header-navigation .container .menu-toggler {
-        color: #FFC000;
+        color: #cfb47a;
     }
 
     .site-header.header-one .header-navigation ul.navigation-box>li {
@@ -641,7 +641,7 @@
         max-width: 100%;
     }
     .banner-style-one .banner-title {
-        font-size: 80px;
+        font-size: 70px;
         line-height: 70px;
     }
 
