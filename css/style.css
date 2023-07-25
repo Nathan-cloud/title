@@ -192,7 +192,7 @@ hr.style-one {
 }
 
 .block-title__light-color {
-  color: #fff;
+  color: #000;
 }
 
 .block-title__black-color {
@@ -1959,7 +1959,7 @@ hr.style-one {
   font-size: 18px;
   font-weight: 600;
   position: relative;
-  color: #fff;
+  color: #000;
   padding-left: 30px;
 }
 
