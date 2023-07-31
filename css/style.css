@@ -31,7 +31,7 @@
 /*
 * 1. imported styled
 */
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Titillium+Web:300,400,600,700,900");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url("bootstrap.min.css");
 @import url("animate.css");
 @import url("font-awesome.min.css");
@@ -48,11 +48,11 @@
 */
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
   color: #7e7f82;
+  font-weight: 100;
 }
 
 a:active,
@@ -174,7 +174,7 @@ hr.style-one {
   font-size: 20px;
   font-weight: bold;
   color: #17354f;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   position: relative;
   top: 10px;
 }
@@ -184,7 +184,7 @@ hr.style-one {
   font-size: 60px;
   font-weight: bold;
   color: #17354f;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .block-title__primary-color {
@@ -206,16 +206,15 @@ hr.style-one {
   border: none;
   outline: none;
   text-align: center;
-  background-color: #17354f;
-  color: #fff;
+  color: #000;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 200;
   padding: 19.5px 49px;
   transition: all 0.4s ease;
 }
 
 .thm-btn:hover {
-  color: #fff;
+  color: #000;
   background-color: #cfb47a;
 }
 
@@ -224,8 +223,8 @@ hr.style-one {
 }
 
 .thm-btn__base-bg:hover {
-  color: #cfb47a;
-  background-color: #fff;
+  color: #000;
+  background-color: #cfb47a;
 }
 
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
@@ -494,7 +493,7 @@ hr.style-one {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.2em;
-  color: #17354f;
+  color: #000;
   padding: 0;
   transition: all 0.4s ease;
   position: relative;
@@ -514,7 +513,7 @@ hr.style-one {
 
 .header-navigation ul.navigation-box > li.current > a,
 .header-navigation ul.navigation-box > li:hover > a {
-  color: #17354f;
+  color: #000;
 }
 
 .header-navigation ul.navigation-box > li > .sub-menu {
@@ -732,8 +731,9 @@ hr.style-one {
 }
 
 .site-header.header-one .top-bar .right-block a {
-  color: #7d7e81;
-  font-size: 18px;
+  color: #000000;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .site-header.header-one .top-bar .right-block a + a {
@@ -742,7 +742,7 @@ hr.style-one {
 
 .site-header.header-one .top-bar .right-block a i {
   color: #cfb47a;
-  font-size: 14px;
+  font-size: 15px;
   margin-right: 10px;
 }
 
@@ -752,7 +752,7 @@ hr.style-one {
 
 .site-header.header-one .header-navigation ul.navigation-box > li > a {
   color: #7d7e81;
-  font-weight: 600;
+  font-weight: 200;
   font-size: 16px;
   text-transform: capitalize;
   letter-spacing: 0;
@@ -932,7 +932,7 @@ hr.style-one {
 .banner-style-one .tag-line {
   font-size: 24px;
   color: #000;
-  font-weight: 600;
+  font-weight: 200;
   display: block;
   width: 100%;
   margin-bottom: 25px;
@@ -948,8 +948,8 @@ hr.style-one {
   color: #000;
   font-size: 70px;
   line-height: 90px;
-  font-weight: 600;
-  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+ font-family: 'Montserrat', sans-serif;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -1083,7 +1083,7 @@ hr.style-one {
 .banner-style-two .tag-line {
   font-size: 24px;
   color: #cfb47a;
-  font-weight: 600;
+  font-weight: 200;
   display: block;
   width: 100%;
   margin-bottom: 25px;
@@ -1100,7 +1100,7 @@ hr.style-one {
   font-size: 90px;
   line-height: 90px;
   font-weight: 900;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -1183,7 +1183,7 @@ hr.style-one {
 * 5. footer styled
 */
 .site-footer {
-  background-color: #17354f;
+  background-color: #000000ed;
   position: relative;
 }
 
@@ -1195,7 +1195,7 @@ hr.style-one {
   content: "";
   width: 545px;
   height: 498px;
-  background-color: #17354f;
+  background-color: #000000ed;
   background-image: url(../images/resources/footer-round-circle.png);
   position: absolute;
   bottom: -20%;
@@ -1264,9 +1264,9 @@ hr.style-one {
 
 .site-footer .upper-footer .content-block .menu-link a,
 .site-footer .upper-footer .content-block .menu-link span {
-  color: #cfc1e5;
+  color: #fff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   transition: all 0.4s ease;
 }
 
@@ -1294,7 +1294,7 @@ hr.style-one {
   background-color: #ffffff;
   color: #7e7f82;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   padding-left: 30px;
 }
 
@@ -1324,7 +1324,7 @@ hr.style-one {
   background-color: #cfb47a;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 200;
   margin-left: 10px;
   padding: 0 50px;
   cursor: pointer;
@@ -1349,16 +1349,16 @@ hr.style-one {
 .site-footer .footer-widget .widget-title h3 {
   margin: 0;
   color: #ffffff;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
 }
 
 .site-footer .footer-widget p {
   margin: 0;
-  color: #cfc1e5;
+  color: #fff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 30px;
 }
 
@@ -1369,9 +1369,9 @@ hr.style-one {
 }
 
 .site-footer .footer-widget ul.link-list li a {
-  color: #cfc1e5;
+  color: #fff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   position: relative;
   display: inline-block;
   transition: all 0.4s ease;
@@ -1449,8 +1449,8 @@ hr.style-one {
 .site-footer .bottom-footer .inner-container p {
   margin: 0;
   font-size: 16px;
-  font-weight: 600;
-  color: #cfc1e5;
+  font-weight: 200;
+  color: #fff;
 }
 
 .site-footer .bottom-footer .inner-container p a {
@@ -1510,7 +1510,7 @@ hr.style-one {
   background-color: #cfb47a;
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 200;
   width: 100%;
   max-width: 219px;
   height: 69px;
@@ -1552,7 +1552,7 @@ hr.style-one {
 .contact-block-one__info-item {
   margin: 0;
   position: relative;
-  color: #cfc1e5;
+  color: #fff;
   font-size: 22px;
   font-weight: 400;
   line-height: 22px;
@@ -1645,7 +1645,7 @@ hr.style-one {
   background-color: #cfb47a;
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 200;
   text-align: center;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -1700,7 +1700,7 @@ hr.style-one {
 .project-style-one__title {
   margin: 0;
   font-size: 22px;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
@@ -1712,7 +1712,7 @@ hr.style-one {
 .project-style-one__category {
   color: #cfb47a;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   display: block;
   line-height: 1em;
   margin-bottom: 5px;
@@ -1795,7 +1795,7 @@ hr.style-one {
   -webkit-box-align: center;
   align-items: center;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .project-details__feature-item + .project-details__feature-item {
@@ -1811,7 +1811,7 @@ hr.style-one {
   color: #17354f;
   font-size: 40px;
   font-weight: 900;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin-bottom: 25px;
   margin-top: -10px;
 }
@@ -1821,7 +1821,7 @@ hr.style-one {
   color: #7d7e81;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .project-details__sub-title {
@@ -1829,7 +1829,7 @@ hr.style-one {
   font-size: 24px;
   font-weight: 700;
   color: #17354f;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin-bottom: 25px;
   margin-top: 20px;
 }
@@ -1843,7 +1843,7 @@ hr.style-one {
 
 .inner-banner__title {
   margin: 0;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 80px;
   font-weight: 900;
@@ -1868,7 +1868,7 @@ hr.style-one {
   content: ".";
   color: #ffffff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
@@ -1879,7 +1879,7 @@ hr.style-one {
 .thm-breadcrumb__item span {
   color: #ffffff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 /*
@@ -1899,14 +1899,14 @@ hr.style-one {
   font-size: 30px;
   font-weight: 700;
   color: #fff;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
 .cta-one__text {
-  color: #cfc1e5;
+  color: #fff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 30px;
   margin: 0;
   margin-top: -15px;
@@ -1957,7 +1957,7 @@ hr.style-one {
 .cta-two__features-item {
   color: #17354f;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 200;
   position: relative;
   color: #000;
   padding-left: 30px;
@@ -2032,10 +2032,10 @@ hr.style-one {
 
 .cta-three__text {
   margin: 0;
-  color: #cfc1e5;
+  color: #fff;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
   margin-bottom: 45px;
 }
 
@@ -2088,7 +2088,7 @@ hr.style-one {
   color: #fff;
   font-size: 50px;
   font-weight: 900;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .cta-four__btn {
@@ -2127,7 +2127,7 @@ hr.style-one {
 
 .price-one__price {
   margin: 0;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: #cfb47a;
   font-size: 60px;
@@ -2142,7 +2142,7 @@ hr.style-one {
 
 .price-one__feature-item {
   color: #7e7f82;
-  font-weight: 600;
+  font-weight: 200;
   font-size: 16px;
 }
 
@@ -2221,7 +2221,7 @@ hr.style-one {
 }
 
 .price-two__price {
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 900;
   color: #cfb47a;
@@ -2236,7 +2236,7 @@ hr.style-one {
   color: #17354f;
   font-size: 16px;
   line-height: 1.25em;
-  font-weight: 600;
+  font-weight: 200;
   margin: 0;
   transition: all 0.4s ease;
 }
@@ -2244,7 +2244,7 @@ hr.style-one {
 .price-two__average {
   font-size: 16px;
   color: #7e7f82;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1em;
   margin: 0;
   display: block;
@@ -2260,7 +2260,7 @@ hr.style-one {
 .price-two__link-text {
   color: #ffffff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   margin: 0;
 }
 
@@ -2322,7 +2322,7 @@ hr.style-one {
   color: #17354f;
   font-size: 40px;
   font-weight: bold;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin-top: -10px;
   margin-bottom: 40px;
@@ -2333,7 +2333,7 @@ hr.style-one {
   color: #7e7f82;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .download-one__option {
@@ -2358,7 +2358,7 @@ hr.style-one {
 .download-one__feature-item {
   font-size: 16px;
   color: #757575;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .download-one__feature-item span {
@@ -2427,7 +2427,7 @@ hr.style-one {
   font-size: 40px;
   font-weight: 700;
   margin: 0;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin-bottom: 40px;
 }
 
@@ -2483,7 +2483,7 @@ hr.style-one {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -2498,7 +2498,7 @@ hr.style-one {
 
 .about-one__text {
   margin: 0;
-  color: #7e7f82;
+  color: #000;
   font-size: 16px;
   font-weight: 600;
   line-height: 28px;
@@ -2535,7 +2535,7 @@ hr.style-one {
 .about-two .block-title .block-title__text {
   margin: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 30px;
 }
 
@@ -2595,7 +2595,7 @@ hr.style-one {
   line-height: 1em;
   font-weight: 900;
   color: #fff;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: 900;
 }
 
@@ -2671,7 +2671,7 @@ hr.style-one {
   color: #cfb47a;
   line-height: 1em;
   position: relative;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: 900;
 }
 
@@ -2716,8 +2716,9 @@ hr.style-one {
 .team-one__text {
   margin: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 30px;
+  color: #000;
 }
 
 .team-one__text + .team-one__text {
@@ -2757,13 +2758,13 @@ hr.style-one {
   cursor: pointer;
   outline: none;
   font-size: 14px;
-  color: #fff;
+  color: #000;
   width: 63px;
   height: 63px;
   border-style: solid;
   border-width: 2px;
   text-align: center;
-  border-color: #17354f;
+  border-color: #000;
   opacity: 0.2;
   z-index: 9;
   border-radius: 50%;
@@ -2778,12 +2779,13 @@ hr.style-one {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #17354f;
+  border-color: #000;
   transition: all 0.4s ease;
 }
 
 .team-one .team-carousel-btn .carousel-btn:hover {
   opacity: 1;
-  border-color: #cfb47a;
+  border-color: #000;
 }
 
 .team-one .team-carousel-btn .carousel-btn:hover i {
@@ -2852,7 +2854,7 @@ hr.style-one {
 .testimonial-one__text {
   font-size: 36px;
   font-weight: 900;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   color: #fff;
   line-height: 50px;
   margin: 0;
@@ -2862,7 +2864,7 @@ hr.style-one {
 .testimonial-one__name {
   color: #cfb47a;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 200;
   margin: 0;
   margin-top: 40px;
 }
@@ -2972,7 +2974,7 @@ hr.style-one {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .service-one__title a {
@@ -2988,7 +2990,7 @@ hr.style-one {
   margin: 0;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
   color: #7e7f82;
   margin-top: 30px;
 }
@@ -3040,10 +3042,10 @@ hr.style-one {
 
 .service-two__title-text {
   margin: 0;
-  color: #7e7f82;
+  color: rgb(0 0 0);
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight :bold;
 }
 
 .service-two__single {
@@ -3068,7 +3070,7 @@ hr.style-one {
 .service-two__title {
   margin: 0;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 200;
   width: 50%;
   margin-top: 20px;
 }
@@ -3141,7 +3143,7 @@ hr.style-one {
   margin: 0;
   font-size: 26px;
   font-weight: bold;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .service-three__title a {
@@ -3157,7 +3159,7 @@ hr.style-one {
   margin: 0;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
   color: #7e7f82;
   margin-top: 30px;
 }
@@ -3215,7 +3217,7 @@ hr.style-one {
 .service-three__price-text {
   color: #7e7f82;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1em;
 }
 
@@ -3273,7 +3275,7 @@ hr.style-one {
   color: #7e7f82;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
   margin-bottom: 3px;
 }
 
@@ -3282,7 +3284,7 @@ hr.style-one {
   vertical-align: middle;
   color: #cfb47a;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   position: relative;
   transition: all 0.4s ease;
 }
@@ -3367,7 +3369,7 @@ hr.style-one {
   font-size: 30px;
   line-height: 1.1em;
   font-weight: bold;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin-top: 14px;
   margin-bottom: 30px;
 }
@@ -3384,7 +3386,7 @@ hr.style-one {
 .blog-one__text {
   margin: 0;
   color: #7e7f82;
-  font-weight: 600;
+  font-weight: 200;
   font-size: 16px;
   line-height: 30px;
 }
@@ -3392,7 +3394,7 @@ hr.style-one {
 .blog-one__meta-item {
   color: #7e7f82;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1em;
   transition: all 0.4s ease;
 }
@@ -3465,7 +3467,7 @@ hr.style-one {
   font-size: 18px;
   color: #17354f;
   transition: all 0.4s ease;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .blog-post-pagination a.prev,
@@ -3522,13 +3524,13 @@ hr.style-one {
   font-size: 22px;
   font-weight: bold;
   color: #17354f;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .blog-details__tags-link {
   color: #7e7f82;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   display: inline-block;
   vertical-align: middle;
   background-color: #fff;
@@ -3600,7 +3602,7 @@ hr.style-one {
   color: #7e7f82;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
   margin: 0;
   margin-top: 35px;
 }
@@ -3647,14 +3649,14 @@ hr.style-one {
   color: #17354f;
   font-size: 22px;
   font-weight: bold;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .comment-one__date {
   display: block;
   color: #cfb47a;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1em;
   margin-top: 10px;
 }
@@ -3668,7 +3670,7 @@ hr.style-one {
   margin: 0;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
   margin-top: 40px;
 }
 
@@ -3695,7 +3697,7 @@ hr.style-one {
 .accrodion-grp .accrodion .accrodion-title h4 {
   margin: 0;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 200;
   color: #17354f;
   padding: 28px 30px;
   position: relative;
@@ -3731,7 +3733,7 @@ hr.style-one {
   margin: 0;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .accrodion-grp .accrodion .accrodion-content .inner p span {
@@ -3767,7 +3769,7 @@ hr.style-one {
 
 .faq-one__title {
   margin: 0;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   color: #17354f;
   font-size: 40px;
   line-height: 50px;
@@ -3779,7 +3781,7 @@ hr.style-one {
   color: #7e7f82;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 200;
   margin-top: 30px;
   margin-bottom: 35px;
 }
@@ -3794,7 +3796,7 @@ hr.style-one {
 .fun-fact-one__title {
   margin: 0;
   color: #fff;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   line-height: 1em;
   font-size: 60px;
@@ -3802,8 +3804,8 @@ hr.style-one {
 
 .fun-fact-one__text {
   font-size: 16px;
-  font-weight: 600;
-  color: #cfc1e5;
+  font-weight: 200;
+  color: #fff;
   line-height: 1em;
   margin: 0;
   margin-top: 20px;
@@ -3900,7 +3902,7 @@ hr.style-one {
 .sidebar__title {
   margin: 0;
   color: #17354f;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 35px;
@@ -3919,7 +3921,7 @@ hr.style-one {
 .sidebar__categories-list-item a {
   color: #7e7f82;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   transition: all 0.4s ease;
   position: relative;
   display: inline-block;
@@ -3961,7 +3963,7 @@ hr.style-one {
   margin: 0;
   font-size: 22px;
   font-weight: 700;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin-top: 25px;
   margin-bottom: 20px;
 }
@@ -3980,7 +3982,7 @@ hr.style-one {
   font-size: 16px;
   line-height: 30px;
   color: #7e7f82;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .sidebar__tags-list {
@@ -4003,7 +4005,7 @@ hr.style-one {
   background-color: #fff;
   color: #7e7f82;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   transition: all 0.4s ease;
   padding: 4.5px 20px;
   display: block;
@@ -4041,7 +4043,7 @@ hr.style-one {
 .sidebar__recent-post__date {
   font-size: 14px;
   color: #cfb47a;
-  font-weight: 600;
+  font-weight: 200;
   margin: 0;
   display: block;
   line-height: 1em;
@@ -4052,7 +4054,7 @@ hr.style-one {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.25em;
-  font-family: "Titillium Web", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   margin: 0;
   margin-top: 5px;
 }
