@@ -129,11 +129,11 @@
             autoplay: 5000
         });
         $('.banner-carousel-btn .left-btn').on('click', function () {
-            $('.banner-style-one').trigger('next.owl.carousel');
+            $('.banner-style-one').trigger('prev.owl.carousel');
             return false;
         });
         $('.banner-carousel-btn .right-btn').on('click', function () {
-            $('.banner-style-one').trigger('prev.owl.carousel');
+            $('.banner-style-one').trigger('next.owl.carousel');
             return false;
         });
     }
@@ -152,11 +152,11 @@
             autoplay: 5000
         });
         $('.banner-carousel-btn .left-btn').on('click', function () {
-            $('.banner-style-two').trigger('next.owl.carousel');
+            $('.banner-style-two').trigger('prev.owl.carousel');
             return false;
         });
         $('.banner-carousel-btn .right-btn').on('click', function () {
-            $('.banner-style-two').trigger('prev.owl.carousel');
+            $('.banner-style-two').trigger('next.owl.carousel');
             return false;
         });
     }
@@ -263,8 +263,8 @@
     if ($('.team-one__carousel').length) {
         var teamOneCarousel = new Swiper('.team-one__carousel', {
             navigation: {
-                nextEl: '.team-carousel-btn .left-btn',
-                prevEl: '.team-carousel-btn .right-btn',
+                nextEl: '.team-carousel-btn .right-btn',
+                prevEl: '.team-carousel-btn .left-btn',
             },
             observer: true,
             observeParents: true,

@@ -77,7 +77,7 @@ a:visited {
 }
 
 .thm-black-bg {
-  background-color: #17354fe6;
+  background-color: #1d5f53e6;
 }
 
 .thm-base-bg {
@@ -1913,7 +1913,7 @@ hr.style-one {
 }
 
 .cta-one__content-block {
-  padding-left: 80px;
+  padding-left: 25px;
 }
 
 @media (max-width: 991px) {
@@ -2822,7 +2822,7 @@ hr.style-one {
 * 16. testimonial styled
 */
 .testimonial-one {
-  background: #17354f url(../images/background/background-1-1.jpg) center center
+  background: #1d5f53e6 url(../images/background/background-1-1.jpg) center center
     no-repeat fixed;
   background-size: cover;
   padding-bottom: 110px;
